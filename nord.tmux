@@ -14,15 +14,15 @@
 DRACULA_TMUX_COLOR_THEME_FILE=src/dracula.conf
 DRACULA_TMUX_VERSION=0.1.0
 DRACULA_TMUX_STATUS_CONTENT_FILE="src/status-content.conf"
-DRACULA_TMUX_STATUS_CONTENT_NO_PATCHED_FONT_FILE="src/status-content-no-patched-font.conf"
+DRACULA_TMUX_STATUS_CONTENT_AIRLINE_FILE="src/status-content-airline.conf"
 DRACULA_TMUX_STATUS_CONTENT_OPTION="@dracula_tmux_show_status_content"
-DRACULA_TMUX_NO_PATCHED_FONT_OPTION="@dracula_tmux_no_patched_font"
+DRACULA_TMUX_STATUS_CONTENT_AIRLINE="@dracula_tmux_status_content_airline"
 _current_dir="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 __cleanup() {
   unset -v DRACULA_TMUX_COLOR_THEME_FILE DRACULA_TMUX_VERSION
-  unset -v DRACULA_TMUX_STATUS_CONTENT_FILE DRACULA_TMUX_STATUS_CONTENT_NO_PATCHED_FONT_FILE
-  unset -v DRACULA_TMUX_STATUS_CONTENT_OPTION DRACULA_TMUX_NO_PATCHED_FONT_OPTION
+  unset -v DRACULA_TMUX_STATUS_CONTENT_FILE DRACULA_TMUX_STATUS_CONTENT_AIRLINE_FILE
+  unset -v DRACULA_TMUX_STATUS_CONTENT_OPTION DRACULA_TMUX_STATUS_CONTENT_AIRLINE
   unset -v _current_dir
   unset -f __load __cleanup
 }
@@ -31,13 +31,13 @@ __load() {
   tmux source-file "$_current_dir/$DRACULA_TMUX_COLOR_THEME_FILE"
 
   local status_content=$(tmux show-option -gqv "$DRACULA_TMUX_STATUS_CONTENT_OPTION")
-  local no_patched_font=$(tmux show-option -gqv "$DRACULA_TMUX_NO_PATCHED_FONT_OPTION")
+  local airline_theme=$(tmux show-option -gqv "$DRACULA_TMUX_STATUS_CONTENT_AIRLINE")
 
   if [ "$status_content" != "0" ]; then
-    if [ "$no_patched_font" != "1" ]; then
+    if [ "$airline_theme" != "1" ]; then
       tmux source-file "$_current_dir/$DRACULA_TMUX_STATUS_CONTENT_FILE"
     else
-      tmux source-file "$_current_dir/$DRACULA_TMUX_STATUS_CONTENT_NO_PATCHED_FONT_FILE"
+      tmux source-file "$_current_dir/$DRACULA_TMUX_STATUS_CONTENT_AIRLINE_FILE"
     fi
   fi
 }
