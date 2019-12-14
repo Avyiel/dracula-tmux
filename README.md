@@ -1,4 +1,4 @@
-<div align="center"><img src="https://draculatheme.com/assets/img/icons/dracula.svg" width="400"><a href="https://draculatheme.com/" target="_blank"></a></img></div>
+<div align="center"><a href="https://draculatheme.com/" target="_blank"><img src="https://draculatheme.com/assets/img/icons/dracula.svg" width="400"/></a></div>
 
 <p align="center">A clean and elegant <a href="https://draculatheme.com/" target="_blank">Dracula</a> <a href="https://tmux.github.io" target="_blank">tmux</a> color theme.</p>
 
