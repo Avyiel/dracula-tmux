@@ -1,7 +1,14 @@
 MIT License (MIT)
 
-Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com> (https://www.arcticicestudio.com)  
+Copyright for portions of project Dracula tmux are held as part of project
+Nord tmux (https://github.com/arcticicestudio/nord-tmux) by:
+
+Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com> (https://www.arcticicestudio.com)
 Copyright (C) 2017-present Sven Greb <development@svengreb.de> (https://www.svengreb.de)
+
+All other copyright for project Dracula tmux are held by:
+
+Copyright (C) 2019-present Lucas Vienna <dev@lucasvienna.dev> (https://lucasvienna.dev)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
