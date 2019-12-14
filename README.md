@@ -1,4 +1,4 @@
-<div align="center"><img src="https://draculatheme.com/assets/img/icons/dracula.svg" width="400"/></div>
+<div align="center"><img src="https://draculatheme.com/assets/img/icons/dracula.svg" width="400"><a href="https://draculatheme.com/" target="_blank"></a></img></div>
 
 <p align="center">A clean and elegant <a href="https://draculatheme.com/" target="_blank">Dracula</a> <a href="https://tmux.github.io" target="_blank">tmux</a> color theme.</p>
 
@@ -18,8 +18,8 @@ Also see [_tpm's_ install instructions][gh-tpm-docs-install-plugins] for more de
 
 ---
 
-<p align="center">Copyright &copy; 2017-present <a href="https://lucasvienna.dev" target="_blank">Lucas Vienna</a></p>
-<p align="center">Copyright &copy; 2019-present <a href="https://www.arcticicestudio.com" target="_blank">Arctic Ice Studio</a> and <a href="https://www.svengreb.de" target="_blank">Sven Greb</a></p>
+<p align="center">Copyright &copy; 2019-present <a href="https://lucasvienna.dev" target="_blank">Lucas Vienna</a></p>
+<p align="center">Copyright &copy; 2017-present <a href="https://www.arcticicestudio.com" target="_blank">Arctic Ice Studio</a> and <a href="https://www.svengreb.de" target="_blank">Sven Greb</a></p>
 
 <p align="center"><a href="https://github.com/avyiel/dracula-tmux/blob/develop/LICENSE.md"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=MIT&logoColor=f8f8f2&logo=github&colorA=282a36&colorB=6272a4"/></a></p>
 
