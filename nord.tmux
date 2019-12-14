@@ -12,7 +12,7 @@
 #   https://github.com/dracula/dracula-theme
 
 DRACULA_TMUX_COLOR_THEME_FILE=src/dracula.conf
-DRACULA_TMUX_VERSION=0.1.0
+DRACULA_TMUX_VERSION=0.4.0
 DRACULA_TMUX_STATUS_CONTENT_FILE="src/status-content.conf"
 DRACULA_TMUX_STATUS_CONTENT_AIRLINE_FILE="src/status-content-airline.conf"
 DRACULA_TMUX_STATUS_CONTENT_OPTION="@dracula_tmux_show_status_content"

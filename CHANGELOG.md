@@ -1,10 +1,29 @@
-<p align="center"><a href="https://www.nordtheme.com/ports/tmux" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/tmux/repository-hero.svg?sanitize=true"/></a></p>
+<p align="center"><a href="https://draculatheme.com/" target="_blank"><img src="https://draculatheme.com/assets/img/icons/dracula.svg" width="400"/></a></p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/nord-tmux/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-tmux.svg?style=flat-square&label=Release&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://www.nordtheme.com/docs/ports/tmux"><img src="https://img.shields.io/github/release/arcticicestudio/nord-tmux.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a></p>
+<p align="center"><a href="https://github.com/Avyiel/dracula-tmux/releases/latest"><img src="https://img.shields.io/github/release/Avyiel/dracula-tmux.svg?style=flat-square&label=Release&logo=github&logoColor=f8f8f2&colorA=282a36&colorB=6272a4"/></a></p>
 
-<p align="center">Changelog for <a href="https://www.nordtheme.com/ports/tmux">Nord tmux</a> — An arctic, north-bluish clean and elegant <a href="https://tmux.github.io" target="_blank">tmux</a> color theme.</p>
+<p align="center">Changelog for <a href="https://github.com/avyiel/dracula-tmux">Dracula tmux</a> — A clean and elegant <a href="https://draculatheme.com/" target="_blank">Dracula</a> <a href="https://tmux.github.io" target="_blank">tmux</a> color theme.</p>
 
 <!--lint disable no-duplicate-headings-->
+
+# 0.4.0
+
+![Release Date: 2019-12-14](https://img.shields.io/badge/Release_Date-2019--12--14-6272A4.svg?style=flat-square)
+
+## Features
+
+**Dracula Colours**
+↠ Base colour scheme implementation and project renaming.
+
+**Airline Theme**
+↠ This colour scheme comes with two themes: Airline and Default. Use `@dracula_tmux_status_content_airline` to set the theme: `1` for Airline, `0` or unset for the Default.
+
+## Tasks
+
+### Documentation
+
+**MIT License**
+↠ Adapted the MIT license from the Nord tmux project to this fork. The updated license also includes the relevant copyright notices for changes made by [@Avyiel][gh-user-avyiel]
 
 # 0.3.0
 
@@ -128,6 +147,7 @@ _2016-04-20_
 ❯ **Project Initialization**
 
 [arcticicestudio/nord#55]: https://github.com/arcticicestudio/nord/issues/55
+[gh-user-avyiel]: https://github.com/Avyiel
 [gh-user-drzel]: https://github.com/drzel
 [gh-user-dylnmc]: https://github.com/dylnmc
 [gh-user-petrhosek]: https://github.com/petrhosek
