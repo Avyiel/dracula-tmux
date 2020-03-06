@@ -1,4 +1,4 @@
-<div align="center"><a href="https://draculatheme.com/" target="_blank"><img src="https://draculatheme.com/assets/img/icons/dracula.svg" width="400"/></a></div>
+<div align="center"><a href="https://draculatheme.com/" target="_blank"><img src="https://draculatheme.com/static/img/icons/dracula.svg" width="400"/></a></div>
 
 <p align="center"><a href="https://github.com/Avyiel/dracula-tmux/releases/latest"><img src="https://img.shields.io/github/release/Avyiel/dracula-tmux.svg?style=flat-square&label=Release&logo=github&logoColor=f8f8f2&colorA=282a36&colorB=6272a4"/></a></p>
 
