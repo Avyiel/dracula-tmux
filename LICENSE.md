@@ -4,8 +4,8 @@ Copyright for portions of project Dracula tmux are held as part of project
 Nord tmux (https://github.com/arcticicestudio/nord-tmux) by:
 
 Copyright (C) 2017-present Arctic Ice Studio <development@arcticicestudio.com> (https://www.arcticicestudio.com)
-Copyright (C) 2017-present Sven Greb <development@svengreb.de> (https://www.svengreb.de)
-Copyright (c) 2016-present Dracula Theme (https://draculatheme.com)
+Copyright (C) 2017-present Sven Greb <development@svengreb.de> (https://www.svengreb.de)  
+Copyright (c) 2016-present Zeno Rocha <zeno@draculatheme.com> (https://draculatheme.com)
 
 All other copyright for project Dracula tmux are held by:
 
